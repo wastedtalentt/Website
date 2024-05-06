@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.head-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 68px;
+}
+
+.head-section h1 {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 3px;
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+
+.head-section ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.head-section ul li {
+    list-style: none;
+    margin-right: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.head-section ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}

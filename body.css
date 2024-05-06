@@ -1,0 +1,103 @@
+.currency-box {
+    margin: auto;
+    max-width: 900px;
+    height: calc(100vh - 500px);
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: rgba(0, 17, 81, 0.35) 10px 8px 12px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 22px;
+    margin: 0;
+    background-color: rgb(240, 245, 250);
+}
+
+.top a {
+    color: black;
+    text-decoration: none;
+}
+
+
+    .top img {
+    height: 24px;
+    width: 24px;
+}
+
+
+
+
+            /*
+    
+                        B E L O W ! ! ! !
+
+                Amount From To
+            <labels, inputs>
+
+
+
+                */
+
+
+
+.center {
+    display: grid;
+    grid-template-columns: 250px 250px 50px 250px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    text-align: center;
+    margin-top: 50px;
+    align-self: center;
+    gap: 20px;
+    justify-content: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+}
+
+.currency-box .center input, select {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;                              /* font-family */
+    font-size: 18px;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    padding: 12px;
+    color: black;
+    box-shadow: rgba(0, 17, 51, 0.05) 0px 3px 15px;
+}
+
+.currency-box .center button {
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 50%;
+    color: black;
+    box-shadow: rgba(0, 17, 51, 0.05) 0px 3px 15px;
+    cursor: pointer;
+}
+
+#arrow {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(105, 198, 241);
+    box-shadow: rgba(0, 17, 51, 0.05) 0px 3px 15px;
+}
+
+
+#convert {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;     
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 17, 51, 0.05) 0px 3px 15px;
+    grid-area: 4/4/4/5;                                                             /* row-start / column-start / row-end / column end/ */ 
+    cursor: pointer;
+    background-color: black;
+}
+
+#result {
+    grid-area: 4/2/4/3;
+    background-color: black;
+    color: white;
+}

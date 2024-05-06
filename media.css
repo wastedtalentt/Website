@@ -1,0 +1,33 @@
+@media (max-width:980px){
+    .currency-box {
+    width: 600px;
+    }
+    .top {
+        grid-template-columns: 150px 150px 150px 150px;
+    }
+    .center {
+        grid-template-columns: 150px 150px 50px 150px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    }
+}
+
+
+
+
+@media (max-width:640px){
+    .currency-box {
+    width: 500px;
+    }
+    .top {
+        grid-template-columns: 125px 125px 125px 125px;
+    }
+    .center {
+        grid-template-columns: 100px 100px 50px 100px;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    }
+}
+
+
+
+
+
